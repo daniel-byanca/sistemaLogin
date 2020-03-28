@@ -1,0 +1,71 @@
+*,{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+body{
+	background-color: lightblue;
+}
+label,input{
+	display: block;
+	line-height: 30px;
+	height: 40px;
+	outline: none;
+	font-size: 20pt;
+	width: 100%;
+	
+}
+form{
+	width: 330px;
+	background-color: rgba(105,105,105);
+	padding: 20px;
+	margin: 30px auto;
+}
+input[type="submit"]{
+	margin-top: 10px;
+	cursor: pointer;
+}
+#esquerda{
+width: 35%;
+
+height: 630px;
+float: left;
+}
+#direita{
+width: 65%;
+
+height: 630px;
+float: left;
+}
+table{
+	background-color: rgba(105,105,105);
+	width: 90%;
+	margin:30px auto;
+}
+tr{
+	line-height: 30px;
+}
+tr#titulo{
+	font-weight: bold;
+	background-color: rgba(0,0,0,.6);
+	color: white;
+}
+td{
+	padding: 0px 5px;
+}
+a{
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+h2{
+	text-align: center;
+}
+#pesquisar{
+	width: 200px;
+	float: right;
+	border-radius: 10px;
+	height: 35px;
+}
